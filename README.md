@@ -12,7 +12,7 @@ The artifact supports the paper's reported evaluations of:
 - emerging family detection; and
 - multi-label attribute prediction for Behaviour, File Property, Packer, Exploit and Group.
 
-Raw EMBER2024 data and trained model binaries are not included because of their size. The dataset can be reconstructed through the official `thrember` pipeline, and the supplied scripts recreate the models from the included configurations. No live malware binaries are distributed in this repository.
+Raw EMBER2024 data are not included because of their size. Trained model binaries are hosted separately in an [anonymous model archive](https://anonymous-hf.up.railway.app/a/04dlw71uy6fj/). The dataset can be reconstructed through the official `thrember` pipeline, and the supplied scripts can recreate the models from the included configurations. No live malware binaries are distributed in this repository.
 
 Family-classification scripts and configurations are retained for completeness, but the multiclass family-classification task is outside the evaluation reported in the paper and is not required to reproduce its tables.
 
