@@ -1,6 +1,6 @@
 # Re-Benchmarking EMBER2024: A Comparison of Tree-Based Ensembles Against Evasive and Emerging Malware
 
-This repository is the anonymous review artifact accompanying the AISec 2026 paper. It contains the source code, fixed seeds, untuned configurations and selected tuned configurations used to compare LightGBM, XGBoost and Random Forest on EMBER2024.
+This repository is the anonymous review artifact accompanying the submitted paper. It contains the source code, fixed seeds, untuned configurations and selected tuned configurations used to compare LightGBM, XGBoost and Random Forest on EMBER2024.
 
 ## Artifact Scope
 
