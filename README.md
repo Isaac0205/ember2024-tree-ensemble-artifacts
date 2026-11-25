@@ -1,6 +1,6 @@
 # Re-Benchmarking EMBER2024: A Comparison of Tree-Based Ensembles Against Evasive and Emerging Malware
 
-This repository is the artifact accompanying the submitted paper. It contains the source code, fixed seeds, untuned configurations and selected tuned configurations used to compare LightGBM, XGBoost and Random Forest on EMBER2024.
+This repository accompanies the ICISSP 2027 full paper by Isaac Zammit, Christian Colombo and Joseph Bugeja. It contains the source code, fixed seeds, untuned configurations and selected tuned configurations used to compare LightGBM, XGBoost and Random Forest on EMBER2024.
 
 ## Artifact Scope
 
@@ -12,7 +12,7 @@ The artifact supports the paper's reported evaluations of:
 - emerging family detection; and
 - multi-label attribute prediction for Behaviour, File Property, Packer, Exploit and Group.
 
-Raw EMBER2024 data are not included because of their size. Trained model binaries are hosted separately in an [anonymous model archive](https://anonymous-hf.up.railway.app/a/04dlw71uy6fj/). The dataset can be reconstructed through the official `thrember` pipeline, and the supplied scripts can recreate the models from the included configurations. No live malware binaries are distributed in this repository.
+Raw EMBER2024 data are not included because of their size. Trained model binaries are available separately in the [EMBER2024 Ensembles model archive on Hugging Face](https://huggingface.co/Isaac-Zam/EMBER2024-Ensembles). The dataset can be reconstructed through the official `thrember` pipeline, and the supplied scripts can recreate the models from the included configurations. No live malware binaries are distributed in this repository.
 
 Family-classification scripts and configurations are retained for completeness, but the multiclass family-classification task is outside the evaluation reported in the paper and is not required to reproduce its tables.
 
